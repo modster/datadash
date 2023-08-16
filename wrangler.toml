@@ -1,0 +1,9 @@
+name = "datadash"
+route = "datadash.cloud/*"
+main = "src/index.js"
+compatibility_date = "2023-08-16"
+
+[env.staging]
+workers_dev = true
+
+
